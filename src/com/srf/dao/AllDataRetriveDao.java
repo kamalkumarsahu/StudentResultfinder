@@ -33,6 +33,7 @@ public class AllDataRetriveDao {
 			while (rs.next()) {
 				StudentDataHold student = new StudentDataHold();
 				// set all data in student form rs
+				System.out.println("hello");
 				student.setrNo(rs.getInt("rollno"));
 				student.setfName(rs.getString("firstname"));
 				student.setlName(rs.getString("lastname"));
